@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyTorch checkpoints & model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+
+# Generated & downloaded videos / media
+*.mp4
+!youtube_clip.mp4
+*.webm
+*.mkv
+*.avi
+*.mov
+*.gif
+*.part
+*.ytdl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
